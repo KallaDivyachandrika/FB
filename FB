@@ -6,10 +6,6 @@ from pyspark.sql import *
 
 import matplotlib.pyplot as plt
 
- 
-
- 
-
 logFile = "facebook_combined.txt"  # Should be some file on your system
 
 spark = SparkSession.builder.appName("Mutual Friends").getOrCreate()
